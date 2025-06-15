@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text Analyzer</h1>
+        <div class="input-section">
+            <textarea id="textInput" placeholder="Enter your text here..."></textarea>
+            <button id="analyzeButton">Analyze Text</button>
+        </div>
+
+        <div class="results-section">
+            <h2>Analysis Results</h2>
+            <p><strong>Total Characters:</strong> <span id="totalChars">0</span></p>
+            <p><strong>Alphabets:</strong> <span id="totalAlphabets">0</span></p>
+            <p><strong>Numbers:</strong> <span id="totalNumbers">0</span></p>
+            <p><strong>Special Characters:</strong> <span id="totalSpecialChars">0</span></p>
+            <h3>Repeating Characters:</h3>
+            <ul id="repeatingCharsList">
+                <li>No repeating characters found yet.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

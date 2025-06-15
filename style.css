@@ -1,0 +1,111 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to the top */
+    min-height: 100vh;
+    margin: 20px; /* Add some margin around the body */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 2.2em;
+}
+
+h2 {
+    color: #555;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    font-size: 1.6em;
+}
+
+h3 {
+    color: #666;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.input-section {
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: calc(100% - 20px); /* Account for padding */
+    height: 120px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1em;
+    resize: vertical; /* Allow vertical resizing */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.results-section p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    text-align: left; /* Align text to the left */
+    padding-left: 20px; /* Indent slightly */
+}
+
+.results-section strong {
+    color: #333;
+}
+
+.results-section span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+#repeatingCharsList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+    text-align: left; /* Align list items to the left */
+    max-height: 200px; /* Limit height to allow scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+#repeatingCharsList li {
+    padding: 8px 0;
+    border-bottom: 1px dashed #e0e0e0;
+    color: #444;
+}
+
+#repeatingCharsList li:last-child {
+    border-bottom: none;
+}
