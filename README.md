@@ -40,18 +40,11 @@ This project is built using the core foundational technologies of the web:
 
 ## Setup (For Local Development)
 
-If you'd like to run or modify this project on your local machine:
-
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+    git clone [https://github.com/rohith-rathnamala/characters-analyzer.git](https://github.com/rohith-rathnamala/characters-analyzer.git)
     ```
-    *(Replace `YOUR_USERNAME` with `rohith-rathnamala` and `YOUR_REPO_NAME` with `characters-analyzer`)*
 2.  **Navigate to the project directory:**
     ```bash
-    cd YOUR_REPO_NAME
+    cd characters-analyzer
     ```
-3.  **Open `index.html`:**
-    Simply open the `index.html` file in your preferred web browser (e.g., by double-clicking it, or using the Live Server extension in VS Code for live reloading).
-
----
